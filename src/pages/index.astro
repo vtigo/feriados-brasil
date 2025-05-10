@@ -1,7 +1,20 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import dogImage from '../assets/dog.webp';
 ---
 
 <Layout>
-
+    <div class="max-w-3xl mx-auto text-center pt-12 flex flex-col gap-6">
+        <h1 class="text-5xl md:text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            Calendário de Feriados Brasil
+        </h1>
+        <p class="text-2xl">
+            Planeje suas folgas, descubra emendas e aproveite ao máximo seus dias de descanso
+        </p>
+        <Image src={dogImage} class="mx-auto rounded-2xl" height="500" alt="Carnival dog image"/>
+        <p class="text-lg font-bold bg-gradient-to-l from-primary to-secondary bg-clip-text text-transparent">
+            Em breve
+        </p>
+    </div>
 </Layout>
