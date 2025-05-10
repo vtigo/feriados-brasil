@@ -1,0 +1,48 @@
+---
+import './src/styles/global.css'
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feriados Brasil 2025 - Calendário Completo com Pontes</title>
+    <meta name="description" content="Descubra os feriados nacionais e estaduais do Brasil em 2025. Planeje emendas e maximize suas folgas!" />
+    <meta name="author" content="Calendário de Feriados Brasileiros" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://feriadosbrasil.com.br/" />
+    <meta property="og:title" content="Feriados Brasil 2025 - Calendário Completo com Pontes" />
+    <meta property="og:description" content="Descubra os feriados nacionais e estaduais do Brasil em 2025. Planeje emendas e maximize suas folgas!" />
+    <meta property="og:image" content="https://feriadosbrasil.com.br/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://feriadosbrasil.com.br/" />
+    <meta name="twitter:title" content="Feriados Brasil 2025 - Calendário Completo com Pontes" />
+    <meta name="twitter:description" content="Descubra os feriados nacionais e estaduais do Brasil em 2025. Planeje emendas e maximize suas folgas!" />
+    <meta name="twitter:image" content="https://feriadosbrasil.com.br/og-image.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://feriadosbrasil.com.br/" />
+  </head>
+
+  <body>
+      <slot />
+    <!-- <script type="module" src="/src/main.tsx"></script> -->
+  </body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
