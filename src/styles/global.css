@@ -2,7 +2,7 @@
 
 @layer base {
     body {
-        @apply bg-background text-foreground px-6 antialiased
+        @apply bg-background text-foreground antialiased
     }
 }
 
@@ -12,5 +12,10 @@
 
     --color-primary: hsl(145 80 20);
     --color-secondary: hsl(220 60 55);
+
+    --color-br-green: hsl(143, 100, 31);
+    --color-br-yellow: hsl(52, 100, 50);
+    --color-br-blue: hsl(220, 100, 23);
 }
+
 
